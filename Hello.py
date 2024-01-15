@@ -3,8 +3,7 @@
 # First Upload: 2023-07-09
 # Last Update: 2023-12-17
 # Reference: https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps
-pip uninstall openai
-pip install openai
+python -m pip install openai
 import openai
 from openai import OpenAI
 import streamlit as st
